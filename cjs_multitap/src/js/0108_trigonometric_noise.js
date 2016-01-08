@@ -118,16 +118,12 @@ var project;
             switch (lineIndex) {
                 case 0:
                     return Math.cos(point * point);
-                    break;
                 case 1:
                     return Math.cos(point * point) * Math.cos(point);
-                    break;
                 case 2:
                     return Math.sin(point * point);
-                    break;
                 case 3:
                     return Math.sin(point * point) * Math.sin(point);
-                    break;
             }
         };
         /*
