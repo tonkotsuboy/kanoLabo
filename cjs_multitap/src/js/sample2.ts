@@ -35,7 +35,7 @@ namespace project {
             this._smallCircles = [];
 
             for (let i:number = 0; i < this.SMALL_CIRCLE_NUM; i++) {
-                let smallCircle:createjs.Shape = this.createCircle(70);
+                let smallCircle:createjs.Shape = this.createCircle(200);
                 this._smallCircles.push(smallCircle);
                 this._container.addChild(smallCircle);
             }

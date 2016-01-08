@@ -22,7 +22,7 @@ var project;
             this._container.addChild(circle);
             this._smallCircles = [];
             for (var i = 0; i < this.SMALL_CIRCLE_NUM; i++) {
-                var smallCircle = this.createCircle(70);
+                var smallCircle = this.createCircle(200);
                 this._smallCircles.push(smallCircle);
                 this._container.addChild(smallCircle);
             }
